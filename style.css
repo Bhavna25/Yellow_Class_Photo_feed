@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: BurlyWood;
+}
+
+.grid__col-sizer,
+.photo-item {
+  width: 32%;
+}
+
+.grid__gutter-sizer {
+  width: 2%;
+}
+
+.photo-item {
+  margin-bottom: 10px;
+  float: left;
+}
+
+.photo-item__image {
+  display: block;
+  max-width: 100%;
+}
