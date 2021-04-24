@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Photo Feed</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Photo Feed - Technical Assesment from Yellow Class</h1>
+
+    <div class="grid">
+      <div class="grid__col-sizer"></div>
+      <div class="grid__gutter-sizer"></div>
+    </div>
+    <script type="text/html" id="photo-item-template">
+      <div class="photo-item">
+        <img class="photo-item__image" src="{{urls.regular}}" />
+        </div>
+    </script>
+    <script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
